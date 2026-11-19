@@ -9,8 +9,6 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-orange.svg)](#supported-platforms)
 [![UI Framework](https://img.shields.io/badge/UI-PyQt6%20Frosted%20Glass-green.svg)](https://riverbankcomputing.com/software/pyqt/)
 [![AI Engine](https://img.shields.io/badge/AI%20Engine-Gemini%20Live%20Streaming-blueviolet.svg)](https://ai.google.dev/)
-[![Organization](https://img.shields.io/badge/Organization-Obrix%20Labs-blue.svg)](https://obrixlabs.com)
-[![Maintainer](https://img.shields.io/badge/Maintainer-Muhammad%20Anas%20Raheem-blue.svg)](https://github.com/anasraheemdev)
 
 <br/>
 
@@ -298,7 +296,7 @@ python tests/test_ui_features.py
 ## License & Third-Party Notices
 
 - **License**: Licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](LICENSE).
-- **Copyright**: © 2026 **Muhammad Anas Raheem** (Obrix Labs).
+- **Copyright**: © 2026 **Talha Rashid** 
 - **Third-Party Assets**:
   - `core/face_model.obj`: Derived from the [MediaPipe](https://github.com/google-ai-edge/mediapipe) canonical 3D face model, Copyright © Google LLC, licensed under the **Apache License 2.0**.
 

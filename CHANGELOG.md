@@ -43,5 +43,5 @@ This milestone release elevates NOKAR into a production-grade, fully autonomous 
 ---
 
 ### Maintainers & Attribution
-- **Founder & Lead Developer**: Muhammad Anas Raheem ([@anasraheemdev](https://github.com/anasraheemdev))
-- **Organization**: [Obrix Labs](https://obrixlabs.com)
+- **Founder & Lead Developer**: Talha Rashid 
+

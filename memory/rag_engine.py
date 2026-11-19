@@ -286,18 +286,20 @@ class RAGEngine:
             lines.append(f"• {doc.content}")
         return "\n".join(lines)
 
-    def get_system_context(self) -> str:
-        """
-        Produce a concise executive briefing of Anas Raheem's identity, key goals,
-        and current ongoing projects for system prompt injection.
-        """
-        lines = [
-            "[USER PROFILE, GOALS & ONGOING INITIATIVES]",
-            "• User: Muhammad Anas Raheem (address as 'Sir Anas' or 'Anas Raheem').",
-            "• Key Roles: Founder & CEO of Obrix Labs | Founder of Unilistics | AI Engineer & Full-Stack Developer.",
-            "• Primary Goals: Scale Obrix Labs; Scale Unilistics global admissions platform; International AI research; Trustworthy clinical AI/oncology decision support; Autonomous AI agents.",
-            "• Assistant Persona: Your name is 'Nokar' — Anas Raheem's loyal, respectful, and highly competent AI operator.",
-        ]
+  
+def get_system_context(self) -> str:
+    """
+    Produce a concise briefing of Talha Rashid's identity,
+    key goals, and ongoing projects for system prompt injection.
+    """
+    lines = [
+        "[USER PROFILE, GOALS & ONGOING INITIATIVES]",
+        "• User: Talha Rashid (address as 'Sir Talha' or 'Talha Rashid').",
+        "• Key Roles: BS Artificial Intelligence Student | Python Developer | Machine Learning Enthusiast.",
+        "• Primary Goals: Become an AI Engineer; Develop advanced AI and Machine Learning projects; Build practical programming skills; Advance AI research and career opportunities.",
+        "• Assistant Persona: Your name is 'Nokar' — Talha Rashid's loyal, respectful, and highly competent AI operator.",
+    ]
+
 
         # Add ongoing projects summary
         if PROJECTS_VAULT_PATH.exists():

@@ -974,10 +974,10 @@ class JarvisLive:
         try:
             _cfg = json.loads(open(API_CONFIG_PATH, encoding="utf-8").read())
             self._asst_name = (_cfg.get("assistant_name") or "Nokar").strip()
-            _user_name = (_cfg.get("user_name") or "Anas Raheem").strip()
+            _user_name = (_cfg.get("user_name") or "Talha Rashid").strip()
         except Exception:
             self._asst_name = "Nokar"
-            _user_name = "Anas Raheem"
+            _user_name = "Talha Rashid"
 
         memory     = load_memory()
         mem_str    = format_memory_for_prompt(memory)
@@ -1003,11 +1003,11 @@ class JarvisLive:
         # Address form is a property of the language being spoken, so it is
         # stated as a principle rather than a two-language lookup — the model
         # already knows the respectful register of whatever language it is in.
-        _addr = (f"ADDRESS: Always address the user warmly and respectfully as '{_user_name}' or 'Sir Anas'."
+        _addr = (f"ADDRESS: Always address the user warmly and respectfully as '{_user_name}' or 'Sir Talha'."
                  if _user_name
                  else 'ADDRESS: Address the user with the ordinary respectful form '
                       'for a superior in the language you are currently speaking — '
-                      '"Sir Anas" or "sir" in English, its everyday equivalent in any other '
+                      '"Sir Talha" or "sir" in English, its everyday equivalent in any other '
                       'language.')
         identity_ctx = (
             f"[IDENTITY]\n"
@@ -1772,7 +1772,7 @@ class JarvisLive:
             return (e.get("value", "") if isinstance(e, dict) else str(e)).strip()
 
         lang = _val("language")
-        name = _val("name") or "Anas Raheem"
+        name = _val("name") or "Talha Rashid"
         asst_name = getattr(self, "_asst_name", "Nokar") or "Nokar"
         time_str = datetime.now().strftime("%H:%M")
 
@@ -1791,7 +1791,7 @@ class JarvisLive:
         lang_clause = (f" Speak this greeting in {lang}, then follow the "
                        f"user's own language from their first reply onward."
                        if lang else "")
-        name_clause = " Always address the user warmly and respectfully by his name as 'Sir Anas' (Anas Raheem)."
+        name_clause = " Always address the user warmly and respectfully by his name as 'Talha Rashid' (Talha Rashid)."
 
         # Inject last session context if available — pop removes it so it's never repeated
         last = await asyncio.to_thread(pop_last_session)
@@ -1807,7 +1807,7 @@ class JarvisLive:
             )
 
         p1 = (
-            f"Greet and warmly welcome Sir Anas back to his workstation ('Welcome back, Sir Anas!'), speaking as his loyal assistant {asst_name}. "
+            f"Greet and warmly welcome Sir Talha back to his workstation ('Welcome back, Sir Talha!'), speaking as his loyal assistant {asst_name}. "
             f"Mention that you are online and ready for his commands, mention it is {time_str}, and say you are fetching today's latest news and briefings now.{session_clause} "
             f"Keep it to 2 short sentences max. Do not call any tools.{lang_clause}{name_clause}"
         )

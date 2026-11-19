@@ -53,3 +53,15 @@ downloads/
 screenshots/
 temp/
 tmp/
+
+# Local backup files
+*_backup.py
+*_talha_backup.py
+*.zip
+
+# Local model files
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth

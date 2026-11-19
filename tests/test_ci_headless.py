@@ -39,9 +39,9 @@ class TestHeadlessModules(unittest.TestCase):
         self.assertGreater(chunk_count, 0)
         
         # Test query
-        results = vault.query("Muhammad Anas Raheem", top_k=1)
+        results = vault.query("Talha Rashid", top_k=1)
         self.assertTrue(len(results) > 0)
-        self.assertIn("Muhammad Anas Raheem", results[0]["snippet"])
+        self.assertIn("Talha Rashid", results[0]["snippet"])
 
     def test_example_configurations(self):
         """Verify template configuration files exist and contain valid JSON."""

@@ -58,7 +58,7 @@ def get_assistant_name() -> str:
 
 def get_user_name() -> str:
     """Return the configured user name for addressing."""
-    return load_api_keys().get("user_name", "Anas Raheem") or "Anas Raheem"
+    return load_api_keys().get("user_name", "Talha Rashid") or "Talha Rashid"
 
 
 def save_assistant_config(assistant_name: str, user_name: str) -> None:
@@ -71,7 +71,7 @@ def save_assistant_config(assistant_name: str, user_name: str) -> None:
         except Exception:
             data = {}
     data["assistant_name"] = assistant_name.strip() or "Nokar"
-    data["user_name"] = user_name.strip() or "Anas Raheem"
+    data["user_name"] = user_name.strip() or "Talha Rashid"
     CONFIG_FILE.write_text(json.dumps(data, indent=4), encoding="utf-8")
 
 

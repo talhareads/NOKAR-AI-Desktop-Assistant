@@ -167,8 +167,7 @@ Ensure all 14 capability checks pass with a 100% success rate.
 
 ## Community & Contact
 
-- **Maintainer**: Muhammad Anas Raheem ([@anasraheemdev](https://github.com/anasraheemdev))
-- **Email**: [info@obrixlabs.com](mailto:info@obrixlabs.com)
-- **Organization**: [Obrix Labs](https://obrixlabs.com)
-- **WhatsApp Support**: [wa.me/923462440356](https://wa.me/923462440356)
-- **LinkedIn**: [linkedin.com/in/anasraheem](https://www.linkedin.com/in/anasraheem/)
+- **Maintainer**: Talha Rashid 
+- **Email**: talharashid8605@gmail.com
+- **WhatsApp Support**: 03179827717
+

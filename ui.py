@@ -84,7 +84,7 @@ def _read_full_config() -> dict:
 
 # Single source of truth for the release name — the window title, the header
 # badge and the readme must never disagree again.
-APP_VERSION  = "Obrix Labs"
+APP_VERSION  = "Talha Rashid"
 APP_PROTOCOL = "Obrix Labs"
 
 _DEFAULT_W, _DEFAULT_H = 980, 700
@@ -3173,7 +3173,7 @@ class NavRail(QFrame):
         b_name = QLabel("NOKAR")
         b_name.setFont(QFont("Segoe UI", 9, QFont.Weight.Bold))
         b_name.setStyleSheet(f"color: {C.WHITE}; background: transparent; border: none; letter-spacing: 1px;")
-        b_sub = QLabel("Obrix Labs")
+        b_sub = QLabel("Talha Rashid")
         b_sub.setFont(QFont("Segoe UI", 7))
         b_sub.setStyleSheet(f"color: {C.TEXT_DIM}; background: transparent; border: none;")
         text_v.addWidget(b_name)
@@ -4176,7 +4176,7 @@ class BriefingView(QWidget):
         cl = QVBoxLayout(card)
         cl.setSpacing(10)
 
-        t = QLabel("Welcome Sir Anas Raheem — Executive Summary")
+        t = QLabel("Welcome Sir Talha Rashid — Executive Summary")
         t.setFont(QFont("Segoe UI", 11, QFont.Weight.Bold))
         t.setStyleSheet(f"color: {C.PRI};")
         cl.addWidget(t)
@@ -5579,7 +5579,7 @@ class MainWindow(QMainWindow):
         logo.setStyleSheet(f"color: {C.PRI}; background: transparent; border: none;")
         brand_row.addWidget(logo)
 
-        brand_lbl = QLabel(f"{self._assistant_name.upper()} — Obrix Labs")
+        brand_lbl = QLabel(f"{self._assistant_name.upper()} — Talha Rashid")
         brand_lbl.setFont(QFont("Segoe UI", 10, QFont.Weight.Bold))
         brand_lbl.setStyleSheet(f"color: {C.WHITE}; background: transparent; border: none; letter-spacing: 0.5px;")
         brand_row.addWidget(brand_lbl)
