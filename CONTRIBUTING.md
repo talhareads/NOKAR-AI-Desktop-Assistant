@@ -1,6 +1,6 @@
-# Contributing to NOKAR
+﻿# Contributing to NOKAR
 
-Thank you for your interest in contributing to **NOKAR – Fully Autonomous AI Assistant**! We welcome contributions from developers, researchers, designers, and open-source enthusiasts worldwide.
+Thank you for your interest in contributing to **NOKAR â€“ Fully Autonomous AI Assistant**! We welcome contributions from developers, researchers, designers, and open-source enthusiasts worldwide.
 
 This document outlines the guidelines and best practices for contributing to the repository.
 
@@ -49,7 +49,7 @@ Have an idea for a new capability, tool integration, or UI improvement?
 
 ### Submitting Pull Requests
 
-1. **Fork the repository** on GitHub: `https://github.com/anasraheemdev/nokar-fully-autonomous-ai-assistant`.
+1. **Fork the repository** on GitHub: `https://github.com/talhareads/NOKAR-AI-Desktop-Assistant`.
 2. **Create a topic branch**: `git checkout -b feature/my-new-feature` or `git checkout -b fix/issue-123`.
 3. **Keep changes focused**: One PR should address one specific feature or bug fix.
 4. **Follow project conventions**: Adhere to PEP 8, write clean docstrings, and avoid unnecessary external dependencies.
@@ -170,4 +170,5 @@ Ensure all 14 capability checks pass with a 100% success rate.
 - **Maintainer**: Talha Rashid 
 - **Email**: talharashid8605@gmail.com
 - **WhatsApp Support**: 03179827717
+
 
